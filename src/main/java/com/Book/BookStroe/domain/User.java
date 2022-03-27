@@ -1,12 +1,22 @@
 package com.Book.BookStroe.domain;
 
-public class Person {
+public class User {
 
     private String userName;
 
     private String password;
 
     private String email;
+
+    private String userType;
+
+    public String getUserType() {
+        return userType;
+    }
+
+    public void setUserType(String userType) {
+        this.userType = userType;
+    }
 
     public String getUserName() {
         return userName;
